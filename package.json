@@ -23,7 +23,7 @@
   ],
   "main": "build/tree-js.js",
   "license": "MIT",
-  "author": "Alexander Asmeev <daremove1@gmail.com>",
+  "author": "daremove <daremove1@gmail.com>",
   "repository": "daremove/tree-js",
   "scripts": {
     "test": "jest",
