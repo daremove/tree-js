@@ -1,8 +1,10 @@
 {
-  "name": "tree-js",
+  "name": "tree-from-array",
   "version": "0.0.1",
   "description": "A useful tool for converting an array to a tree.",
   "keywords": [
+    "tree from array",
+    "tree from list",
     "array to tree",
     "list to tree",
     "unflatten",
@@ -24,7 +26,10 @@
   "main": "build/tree-js.js",
   "license": "MIT",
   "author": "daremove <daremove1@gmail.com>",
-  "repository": "daremove/tree-js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daremove/tree-js.git"
+  },
   "scripts": {
     "test": "jest",
     "test:coverage": "jest --coverage",
