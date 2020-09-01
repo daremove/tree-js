@@ -1,0 +1,54 @@
+{
+  "name": "tree-js",
+  "version": "0.0.1",
+  "description": "A useful tool for converting an array to a tree.",
+  "keywords": [
+    "array to tree",
+    "list to tree",
+    "unflatten",
+    "array-helper",
+    "array-manipulations",
+    "tree-structure",
+    "array",
+    "list",
+    "collection",
+    "children",
+    "child",
+    "tree",
+    "navigation",
+    "nested",
+    "util",
+    "traverse",
+    "traverse tree"
+  ],
+  "main": "build/tree-js.js",
+  "license": "MIT",
+  "author": "Alexander Asmeev <daremove1@gmail.com>",
+  "repository": "daremove/tree-js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "tsc-check": "tsc --noEmit --project tsconfig.json",
+    "tslint-check": "tslint --project tsconfig.json",
+    "tslint-fix": "tslint --project tsconfig.json --fix",
+    "prettier-check": "prettier --ignore-path ./.prettierignore --check \"./src/**/*.ts\"",
+    "prettier-fix": "prettier --ignore-path ./.prettierignore --write \"./src/**/*.ts\"",
+    "lint": "npm run tsc-check && npm run tslint-check && npm run prettier-check",
+    "lint-fix": "npm run tslint-fix && npm run prettier-fix"
+  },
+  "devDependencies": {
+    "@types/jest": "25.1.4",
+    "@types/node": "13.9.3",
+    "jest": "25.1.0",
+    "prettier": "1.19.1",
+    "ts-jest": "25.2.1",
+    "ts-node": "8.3.0",
+    "tslint": "6.1.0",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-plugin-prettier": "2.1.0",
+    "typescript": "3.8.3"
+  },
+  "jest": {
+    "preset": "ts-jest"
+  }
+}
